@@ -33,6 +33,7 @@ let index_of_a_question = Math.floor(Math.random() * Questions.length);
 
 console.log(gameOn.questions);
 console.log(gameOn.answers);
+index_of_a_question= prompt("Select the correct answer in the console");
 var userAnswer = prompt("Select the correct answer in the console");
 
 if(userAnswer!==gameOn.correct_answer)
@@ -42,3 +43,42 @@ if(userAnswer!==gameOn.correct_answer)
 else {
     alert("You got it")
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+// let game =
+//     [
+//         {
+//             question:"Party like it's what year?",
+//             answer:['1999','2001','1978'],
+//             correctAnswer:0
+//         },
+//         {
+//             question:"Learn to use your keyboard, because 'what' will stop working one day?",
+//             answer:['keyboard','screen','mouse'],
+//             correctAnswer: 2
+//         },
+//         {
+//             question:"What color is the sun?",
+//             answer:['red','yellow','green'],
+//             correctAnswer: 1
+//         }
+//     ];
+//
+// for(let idx in game)
+// {
+//     let questions = game[idx].question;
+//     let answers= game.answer[idx];
+//     console.log(questions);
+//     console.log(answers);
+// }
